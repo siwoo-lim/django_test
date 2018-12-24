@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/tablestyle.css?after" />
+    <title>댓글란</title>
+    <!--<script type="text/javascript" src="write_event.js"></script>-->
+  </head>
+  <body oncontextmenu='return false' ondragstart='return false' onselectstart='return false'>
+  <h1>Billboard test</h1>
+  <table>
+    <th>
+      닉네임
+    </th>
+    <th>
+      댓글
+    </th>
+        {% for c in comment %}
+        <tr>
+          <td id="nickname">{{ c.nickname }}</td>
+          <td>{{ c.comments }}</td>
+        </tr>
+        {% endfor %}
+  </table>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+h1 {
+  text-align : center;
+}
+
+hr {
+  border : 0;
+  height : 2px;
+  background: #000000;
+}
+
+table, td, tr, th{
+  border: solid 1px black;
+  padding: 5px;
+  text-align:center;
+  color: black;
+}
+table{
+  background-color: black;
+}
+
+th{
+  background-color: brown;
+}
+td, tr{
+  background-color: #F6D8CE;
+}
+
+#div_search{
+  margin: 2px;
+  width: 800px;
+}
+
+#div_title{
+  height:50px;
+}
+
+#div_contents{
+  height:500px;
+}
+
+#div_bilboard{
+  margin:auto;
+  width: 800px;
+}

@@ -1,0 +1,12 @@
+table, th, tr, td{
+  border: 2px solid black;
+}
+
+#nickname {
+  margin:auto;
+  width: 100px;
+}
+
+table {
+  background-color:#f9b3a7;
+}

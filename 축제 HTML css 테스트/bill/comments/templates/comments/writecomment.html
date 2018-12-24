@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>댓글 작성란</title>
+  </head>
+  <body onload="comment_submit.reset();">
+    <iframe src="billboard" style="width:1366px; height:768px; border:0px"></iframe>
+    {% block content %}
+    <h1>Billboard test</h1>
+      <form id="comment_submit" action="" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+      <input type="submit" id="input_submit">
+    </form>
+    {% endblock %}
+  </body>
+</html>

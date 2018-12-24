@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BilBoard TestWeb</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="bilboardwrite.js"></script>
+  </head>
+  <body>
+    <div id="div_search">
+      <div id="div_title">
+        <input type="text" placeholder="title" id="input_title">
+      </div>
+      <div id="div_contents">
+        <form action = "comments.php" method="GET">
+        <input type="text" placeholder="contents" style="width:500px; height:500px;" name="password">
+        <input type="submit" value="submit" onclick="submit()">
+        </form>
+      </div>
+    </div>
+    <h1>Bilboard</h1>
+    <div id="div_bilboard">
+    </div>
+  </body>
+</html>
